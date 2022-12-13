@@ -1,37 +1,74 @@
+div {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  float: left;
+  width: 30%;
+  margin-right: 10%;
+}
+li {
+  cursor: pointer;
+  background-color: #1a1a1b;
+  color: #fff;
+  padding: 5px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+li:hover {
+  background-color: #5f7499;
+}
+.animal-card {
+  display: none;
+  background-color: #A85751;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #7D2E68;
+  margin: 10px;
+  float: right;
+  width: 350px;
+  height: 400px;
+  position: relative;
+}
+.active {
+  display: block;
+}
+img {
+  float: left;
+  margin: 10px;
+  border-radius: 10px;
+  height: 300px;
+  width: 200px;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+}
 
-body{
-    font-family: "Poppins", sans-serif;
-    background-color: rgb(87, 65, 86);
+
+
+button {
+  background-color: #011638;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right-bottom;
+  position: absolute;  
+  bottom: 0;          
+  right: 0;
+  margin: 5px;
 }
-.content{
-    width: 400px;
-    display: block;
-    margin: 0 auto;
+button:hover {
+  background-color: #008b8b;
 }
-.details{
-    width: 400px;
-    display: block;
-    margin: 0 auto;
-}
-h1{
-    text-align: center;
-    font-size: 2rem;
-    letter-spacing: .6rem;
-}
-.card{
-    border: 1px solid rgb(180, 45, 45);
-    border-radius: 10px;
-    padding: 20px;
-    background-color: rgb(108, 173, 128);
-    margin: 1rem 0;
-}
-img{
-    width: 300px;
-    height:200px;
-}
-h3{
-    text-align: center;
-}
-.hover{
-    background-color: aliceblue;
-}
+
+
+

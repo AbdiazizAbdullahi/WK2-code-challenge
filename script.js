@@ -52,13 +52,8 @@ function renderAnimals(data){
               div.appendChild(animalCard);
     
             }
-
         });
-
         ul.appendChild(li);
-
-
     });  
-
 }
 fetchAnimals();

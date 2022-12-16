@@ -1,5 +1,5 @@
 
-URL = 'https://api.jsonbin.io/v3/b/639c3b5201a72b59f2320eb6'
+URL = 'http://localhost:3000/characters'
 
 
 function fetchAnimals(){

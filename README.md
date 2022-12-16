@@ -1,6 +1,6 @@
 # WK2-code-challenge
 
-## Introduction 
+## Description 
 This is a simple app that display names of animals.When clicked on one of the names it displays the detail of the animal.It also enables one to vote for the animal they want.
 
 ## Requirements
@@ -9,9 +9,6 @@ This is a simple app that display names of animals.When clicked on one of the na
 -The neccessary JS, HTML & CSS                                                                      
 
 ## Installations
--Run;
-    npm install 
-to install some dependencies.
 -To run this program install the json-server.
 -Run this command on your Terminal
     npm install json-server
